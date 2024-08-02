@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experiencesList {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 80%;
+    gap: 20px;
+
+    img {
+        width: 10px;
+    }
+    
+    div, Exp {
+        display: flex;
+        div {
+            display: inline;
+            padding-right: 5px;
+        }
+    }
+
+    p, Time {
+        font-size: 16px;
+    }
+
+    h3, Role {
+        font-weight: 800;
+        font-size: 18px;
+    }
+
+    p, JobDesc {
+        font-size: 16px;
+    }
+
+
+}
+
+@media (width >= 800px) {
+    .experiencesList {
+        max-width: fit-content;
+        gap: 30px;
+        div, Exp {
+            div {
+                padding-top: 1px;
+            }
+        }
+
+        p, Time {
+            font-size: 20px;
+        }
+    
+        h3, Role {
+            font-weight: 800;
+            font-size: 22px;
+        }
+    
+        p, JobDesc {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (width >= 1400px) {
+    .experiencesList {
+        div, Exp {
+            div {
+                padding-top: 6px;
+            }
+        }
+
+        p, Time {
+            font-size: 24px;
+        }
+    
+        h3, Role {
+            font-weight: 800;
+            font-size: 26px;
+        }
+    
+        p, JobDesc {
+            font-size: 24px;
+        }
+    }
+}
