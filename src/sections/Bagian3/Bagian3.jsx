@@ -16,13 +16,14 @@ function Bagian3() {
             <SkillList src={CheckIcon} skill="CSS"/>
             <SkillList src={CheckIcon} skill="Javascript"/>
             <SkillList src={CheckIcon} skill="React"/>
+            <SkillList src={CheckIcon} skill="SQL"/>
         </div>
         <hr />
         <div className={styles.skillList}>
             <SkillList src={CheckIcon} skill="Linux"/>
             <SkillList src={CheckIcon} skill="Python"/> 
             <SkillList src={CheckIcon} skill="Data Analyst"/>
-            <SkillList src={CheckIcon} skill="Deep Learning"/>
+            <SkillList src={CheckIcon} skill="Cyber Security"/>
         </div>
     </section>
   )
